@@ -49,6 +49,23 @@ python scripts/scan_full.py --direction top
   chart with MACD subplot, three-push markers, PDA zone, and entry/stop/target
   trade plan
 
+## Daily automation (GitHub Actions)
+
+A scheduled workflow at `.github/workflows/daily_scan.yml` runs the scan
+**every weekday at 23:00 UTC** (≈ 6 pm ET / 7 pm EDT, after US futures
+settle). It commits the day's CSV + top-5 charts to a `signals/` folder
+in the repo and also uploads them as a 90-day artifact.
+
+* Browse historical signals → [`signals/`](signals/) folder
+* Trigger an ad-hoc run → Actions tab → **Daily Futures Scan** → "Run workflow"
+* Adjust the schedule, score threshold, or plot count → edit the workflow
+  file (`cron`, `--min-score`, `--plot-top`)
+
+For the auto-commit to work, **Settings → Actions → General → Workflow
+permissions** must be set to *"Read and write permissions"*. The workflow
+declares `permissions: contents: write` so this is the only repo-level
+toggle needed.
+
 ## Universe
 
 The list of futures is in `src/universe.py` (`FUTURES_UNIVERSE`). Yahoo
