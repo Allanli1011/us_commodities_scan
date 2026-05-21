@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Reference clone of the upstream cn_stock_scan repo (kept locally, not pushed)
+source_repo/
+
+# Cached price data — regenerable via `python -m src.data_fetcher`
+data/prices/
+data/prices/*.parquet
+
+# Scan outputs — regenerable via `python scripts/scan_full.py`
+output/charts/
+output/logs/
+output/futures_signals_*.csv
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

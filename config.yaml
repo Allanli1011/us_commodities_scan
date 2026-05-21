@@ -1,0 +1,68 @@
+# US / Global Futures Scanner — global configuration
+# Same triple-signal framework as cn_stock_scan, applied to Yahoo Finance
+# continuous front-month futures (`=F` suffix).
+
+## Futures universe
+universe:
+  # Filter by category (case-sensitive). Leave both empty to scan every contract.
+  only_categories: []            # e.g. ["Energy", "Metals", "Grains"]
+  exclude_categories: []         # e.g. ["Crypto"]
+  refresh_days: 30
+  cache_path: data/universe.csv
+
+## Daily price data (yfinance)
+prices:
+  lookback_days: 800             # ~3 years of daily bars; enough for weekly/monthly PDA
+  cache_dir: data/prices
+  max_workers: 6
+  request_sleep_sec: 0.10
+  # yfinance returns adjusted prices by default; futures don't have splits/divs
+  # but the auto_adjust flag is exposed in the fetcher.
+  auto_adjust: false
+  prepost: false
+
+## MACD triple divergence parameters
+macd:
+  fast: 12
+  slow: 26
+  signal: 9
+  divergence:
+    min_area_reduction: 0.10     # each histogram leg must shrink ≥10%
+    dif_zero_tolerance: 0.0      # pullback must not cross zero
+    dif_approach_zero_ratio: 0.50
+    min_price_increase_pct: 0.001
+    recency_bars: 30             # 3rd push must occur within last 30 daily bars
+
+## ZigZag swing detection
+swing:
+  # Futures are typically a bit more volatile than equities, but a 3% threshold
+  # still captures meaningful daily-chart swings. Bump to 0.04–0.05 for very
+  # noisy contracts (NG, VX) if too many false swings appear.
+  pct_threshold: 0.03
+
+## ICT Order Block / Fair Value Gap
+ob_fvg:
+  ob_displacement_atr: 2.0       # OB requires a 2×ATR follow-through
+  fvg_min_size_atr: 0.3
+  atr_period: 14
+
+## PA three-push (75% retracement pattern)
+three_push:
+  pullback_target_pct: 0.75
+  pullback_tolerance: 0.15       # both pullbacks must land in [60%, 90%]
+  max_unfilled_pda_count: 2
+
+## Output
+output:
+  csv_dir: output
+  log_dir: output/logs
+  charts_dir: output/charts
+
+## Runtime
+runtime:
+  log_level: INFO
+  request_timeout_sec: 30
+  currency_symbol: "$"
+  # Color convention: US uses green=up, red=down (opposite of China A-shares)
+  color_up: "#16a34a"            # green
+  color_down: "#dc2626"          # red
