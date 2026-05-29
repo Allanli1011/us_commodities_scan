@@ -1,0 +1,7 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+BZ=F,Brent Crude Oil,Energy,bottom,LONG,1.5,92.35,2026-05-28,92.13,2026-05-28,miss,1/5,"R1,R2,R3,R4",,True,0.245,True,OB,W,90.01,111.87,3-push bottom 106.27→96.07→92.13 bounce 64%/87% | Weekly OB [90.01-111.87] | LONG: entry $92.13 stop $89.11 target $120.30 R:R 9.3
+6J=F,Japanese Yen,Currency,bottom,LONG,1.0,0.0063,2026-05-28,0.0062,2026-04-29,miss,2/5,"R1,R3,R4",,False,,True,OB+FVG,W,0.0062,0.0063,Weekly OB+FVG [0.01-0.01]
+6M=F,Mexican Peso,Currency,bottom,LONG,1.0,0.0577,2026-05-28,0.0551,2026-03-27,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0551,0.0564,Weekly OB+FVG [0.06-0.06]
+ZO=F,Oats,Grains,top,SHORT,1.0,371.75,2026-05-28,379.0,2026-05-27,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,374.75,403.75,Weekly OB+FVG [374.75-403.75]
+TN=F,Ultra 10-Year T-Note,Rates,top,SHORT,1.0,112.1094,2026-05-28,117.0,2025-10-22,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,114.0,117.6562,Weekly OB+FVG [114.00-117.66]
+ZN=F,10-Year T-Note,Rates,top,SHORT,1.0,109.8125,2026-05-28,113.9531,2026-02-27,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,111.125,114.1094,Weekly OB+FVG [111.12-114.11]
