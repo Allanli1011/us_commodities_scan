@@ -1,0 +1,8 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+BZ=F,Brent Crude Oil,Energy,bottom,LONG,1.5,94.9,2026-06-01,91.46,2026-05-29,miss,1/5,"R1,R2,R3,R4",,True,0.245,True,OB,W,90.01,111.87,3-push bottom 106.27→96.07→91.46 bounce 64%/87% | Weekly OB [90.01-111.87] | LONG: entry $91.46 stop $89.11 target $120.30 R:R 12.3
+6M=F,Mexican Peso,Currency,bottom,LONG,1.0,0.0576,2026-06-01,0.0551,2026-03-27,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0551,0.0564,Weekly OB+FVG [0.06-0.06]
+NG=F,Natural Gas,Energy,top,SHORT,1.0,3.178,2026-06-01,3.388,2026-05-29,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,3.38,5.65,Weekly OB+FVG [3.38-5.65]
+ZO=F,Oats,Grains,top,SHORT,1.0,346.75,2026-06-01,379.0,2026-05-27,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,374.75,403.75,Weekly OB+FVG [374.75-403.75]
+HE=F,Lean Hogs,Livestock,top,SHORT,1.0,99.725,2026-06-01,100.875,2026-06-01,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,97.9,101.675,Weekly OB+FVG [97.90-101.68]
+TN=F,Ultra 10-Year T-Note,Rates,top,SHORT,1.0,112.0781,2026-06-01,117.0,2025-10-22,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,114.0,117.6562,Weekly OB+FVG [114.00-117.66]
+ZN=F,10-Year T-Note,Rates,top,SHORT,1.0,109.7656,2026-06-01,113.9531,2026-02-27,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,111.125,114.1094,Weekly OB+FVG [111.12-114.11]
