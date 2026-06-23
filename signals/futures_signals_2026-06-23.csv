@@ -1,0 +1,7 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+6A=F,Australian Dollar,Currency,bottom,LONG,1.0,0.6983,2026-06-22,0.6983,2026-06-22,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.6865,0.7055,Weekly OB+FVG [0.69-0.71]
+6M=F,Mexican Peso,Currency,bottom,LONG,1.0,0.0571,2026-06-22,0.0551,2026-03-27,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0551,0.0564,Weekly OB+FVG [0.06-0.06]
+RB=F,RBOB Gasoline,Energy,bottom,LONG,1.0,2.8927,2026-06-22,2.8926,2026-06-22,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,2.8871,3.3655,Weekly OB+FVG [2.89-3.37]
+HE=F,Lean Hogs,Livestock,bottom,LONG,1.0,96.7,2026-06-22,92.3,2026-06-12,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,90.775,93.0,Weekly OB+FVG [90.78-93.00]
+TN=F,Ultra 10-Year T-Note,Rates,top,SHORT,1.0,111.6562,2026-06-22,117.0,2025-10-22,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,114.0,117.6562,Weekly OB+FVG [114.00-117.66]
+ZN=F,10-Year T-Note,Rates,top,SHORT,1.0,109.25,2026-06-22,113.9531,2026-02-27,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,111.125,114.1094,Weekly OB+FVG [111.12-114.11]
