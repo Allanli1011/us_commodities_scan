@@ -1,0 +1,9 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+6A=F,Australian Dollar,Currency,bottom,LONG,1.0,0.6876,2026-06-29,0.6876,2026-06-29,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.6865,0.7055,Weekly OB+FVG [0.69-0.71]
+6M=F,Mexican Peso,Currency,bottom,LONG,1.0,0.0569,2026-06-29,0.0551,2026-03-27,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0551,0.0564,Weekly OB+FVG [0.06-0.06]
+HE=F,Lean Hogs,Livestock,bottom,LONG,1.0,97.275,2026-06-29,92.5,2026-06-25,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,90.775,93.0,Weekly OB+FVG [90.78-93.00]
+ALI=F,Aluminum,Metals,bottom,LONG,1.0,3243.0,2026-06-29,3237.5,2026-06-29,miss,2/5,"R1,R3,R4",,False,,True,OB+FVG,W,3102.0,3291.5,Weekly OB+FVG [3102.00-3291.50]
+HG=F,Copper,Metals,bottom,LONG,1.0,6.178,2026-06-29,5.9285,2026-06-24,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,5.8625,6.022,Weekly OB+FVG [5.86-6.02]
+TN=F,Ultra 10-Year T-Note,Rates,top,SHORT,1.0,112.8594,2026-06-29,117.0,2025-10-22,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,114.0,117.6562,Weekly OB+FVG [114.00-117.66]
+ZN=F,10-Year T-Note,Rates,top,SHORT,1.0,110.1875,2026-06-29,113.9531,2026-02-27,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,111.125,114.1094,Weekly OB+FVG [111.12-114.11]
+KC=F,Coffee,Softs,bottom,LONG,1.0,277.95,2026-06-29,268.8,2026-06-29,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,243.3,269.4,Weekly OB+FVG [243.30-269.40]
