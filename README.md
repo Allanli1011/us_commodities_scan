@@ -112,3 +112,9 @@ Yahoo Finance, so they're excluded. Use the index/ETF proxies (`DX-Y.NYB`,
 
 The MACD divergence rules, three-push retracement logic, and OB/FVG/PDA
 mechanics are byte-for-byte the same.
+
+## Usage
+
+```bash
+python3 main.py
+```
