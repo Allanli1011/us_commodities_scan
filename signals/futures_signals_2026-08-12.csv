@@ -1,0 +1,13 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+6A=F,Australian Dollar,Currency,bottom,LONG,1.0,0.706,2026-08-12,0.6883,2026-06-24,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.6865,0.7055,Weekly OB+FVG [0.69-0.71]
+6M=F,Mexican Peso,Currency,bottom,LONG,1.0,0.0585,2026-08-12,0.0551,2026-03-27,miss,0/5,"R1,R2,R3,R4,R5",,False,,True,OB+FVG,W,0.0551,0.0564,Weekly OB+FVG [0.06-0.06]
+RB=F,RBOB Gasoline,Energy,bottom,LONG,1.0,2.8828,2026-08-12,2.8822,2026-08-12,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,2.8549,3.0682,Weekly OB+FVG [2.85-3.07]
+ZO=F,Oats,Grains,top,SHORT,1.0,346.75,2026-08-12,347.75,2026-08-12,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,337.5,367.25,Weekly OB+FVG [337.50-367.25]
+ZO=F,Oats,Grains,bottom,LONG,1.0,346.75,2026-08-12,307.25,2026-08-06,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,266.0,316.0,Weekly OB+FVG [266.00-316.00]
+ZR=F,Rough Rice,Grains,top,SHORT,1.0,13.9,2026-08-12,14.415,2026-08-07,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,14.37,14.87,Weekly OB+FVG [14.37-14.87]
+M2K=F,Micro E-mini Russell 2000,Index,top,SHORT,1.0,3055.7,2026-08-12,3056.3,2026-08-12,miss,1/5,"R1,R2,R3,R4",,True,0.139,False,,,,,3-push top 2948.70→3050.60→3056.30 pullback 62%/62%
+RTY=F,E-mini Russell 2000,Index,top,SHORT,1.0,3055.8,2026-08-12,3056.2,2026-08-12,miss,1/5,"R1,R2,R3,R4",,True,0.137,False,,,,,3-push top 2948.60→3050.60→3056.20 pullback 62%/62%
+TN=F,Ultra 10-Year T-Note,Rates,top,SHORT,1.0,110.2656,2026-08-12,117.0,2025-10-22,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,114.0,117.6562,Weekly OB+FVG [114.00-117.66]
+ZN=F,10-Year T-Note,Rates,top,SHORT,1.0,108.5469,2026-08-12,113.9531,2026-02-27,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,111.125,114.1094,Weekly OB+FVG [111.12-114.11]
+LBR=F,Lumber,Softs,top,SHORT,1.0,577.0,2026-08-12,661.0,2026-07-22,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,634.0,664.0,Weekly OB+FVG [634.00-664.00]
+SB=F,Sugar #11,Softs,bottom,LONG,1.0,16.43,2026-08-12,14.37,2026-07-30,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,14.37,15.0,Weekly OB+FVG [14.37-15.00]
