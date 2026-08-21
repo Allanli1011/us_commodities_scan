@@ -1,0 +1,11 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+6A=F,Australian Dollar,Currency,bottom,LONG,1.0,0.7168,2026-08-21,0.6883,2026-06-24,miss,0/5,"R1,R2,R3,R4,R5",,False,,True,OB+FVG,W,0.6865,0.7055,Weekly OB+FVG [0.69-0.71]
+6C=F,Canadian Dollar,Currency,top,SHORT,1.0,0.7271,2026-08-21,0.729,2026-08-21,miss,2/5,"R1,R3,R4",,False,,True,OB+FVG,W,0.7275,0.7378,Weekly OB+FVG [0.73-0.74]
+6M=F,Mexican Peso,Currency,bottom,LONG,1.0,0.059,2026-08-21,0.0551,2026-03-27,miss,0/5,"R1,R2,R3,R4,R5",,False,,True,OB+FVG,W,0.0551,0.0564,Weekly OB+FVG [0.06-0.06]
+ZO=F,Oats,Grains,top,SHORT,1.0,345.25,2026-08-21,347.75,2026-08-21,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,337.5,367.25,Weekly OB+FVG [337.50-367.25]
+M2K=F,Micro E-mini Russell 2000,Index,top,SHORT,1.0,3021.3,2026-08-21,3076.3,2026-08-14,miss,2/5,"R2,R3,R4",,True,0.139,False,,,,,3-push top 2948.70→3050.60→3076.30 pullback 62%/62%
+RTY=F,E-mini Russell 2000,Index,top,SHORT,1.0,3021.1001,2026-08-21,3076.3,2026-08-14,miss,2/5,"R2,R3,R4",,True,0.137,False,,,,,3-push top 2948.60→3050.60→3076.30 pullback 62%/62%
+TN=F,Ultra 10-Year T-Note,Rates,top,SHORT,1.0,109.9219,2026-08-21,117.0,2025-10-22,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,114.0,117.6562,Weekly OB+FVG [114.00-117.66]
+ZN=F,10-Year T-Note,Rates,top,SHORT,1.0,108.2812,2026-08-21,113.9531,2026-02-27,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,111.125,114.1094,Weekly OB+FVG [111.12-114.11]
+LBR=F,Lumber,Softs,top,SHORT,1.0,573.5,2026-08-21,661.0,2026-07-22,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,634.0,664.0,Weekly OB+FVG [634.00-664.00]
+SB=F,Sugar #11,Softs,bottom,LONG,1.0,17.6,2026-08-21,14.37,2026-07-30,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,14.37,15.0,Weekly OB+FVG [14.37-15.00]
