@@ -1,0 +1,8 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+SB=F,Sugar #11,Softs,top,SHORT,1.5,19.06,2026-09-14,19.32,2026-09-14,miss,1/5,"R1,R2,R3,R4",,True,0.618,True,FVG,W,18.56,20.37,3-push top 18.77→18.88→19.32 pullback 84%/77% | Weekly FVG [18.56-20.37] | SHORT: entry $19.32 stop $20.57 target $17.44 R:R 1.5
+6A=F,Australian Dollar,Currency,bottom,LONG,1.0,0.7123,2026-09-14,0.6883,2026-06-24,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,0.6865,0.7055,Weekly OB+FVG [0.69-0.71]
+6M=F,Mexican Peso,Currency,bottom,LONG,1.0,0.058,2026-09-14,0.0551,2026-03-27,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,0.0551,0.0564,Weekly OB+FVG [0.06-0.06]
+CL=F,Crude Oil WTI,Energy,bottom,LONG,1.0,102.59,2026-09-14,79.62,2026-08-26,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,79.62,86.57,Weekly OB+FVG [79.62-86.57]
+RB=F,RBOB Gasoline,Energy,bottom,LONG,1.0,3.1726,2026-09-14,3.153,2026-09-14,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,2.8871,3.3655,Weekly OB+FVG [2.89-3.37]
+M2K=F,Micro E-mini Russell 2000,Index,top,SHORT,1.0,2916.0,2026-09-14,3076.3,2026-08-14,miss,2/5,"R2,R3,R4",,True,0.139,False,,,,,3-push top 2948.70→3050.60→3076.30 pullback 62%/62%
+RTY=F,E-mini Russell 2000,Index,top,SHORT,1.0,2916.1001,2026-09-14,3076.3,2026-08-14,miss,2/5,"R2,R3,R4",,True,0.137,False,,,,,3-push top 2948.60→3050.60→3076.30 pullback 62%/62%
