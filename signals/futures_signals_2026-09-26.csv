@@ -1,0 +1,9 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+SI=F,Silver,Metals,bottom,LONG,1.5,64.71,2026-09-25,63.0,2026-09-24,miss,2/5,"R1,R3,R4",,True,0.793,True,FVG,W,59.25,63.905,3-push bottom 63.87→63.03→63.00 bounce 71%/77% | Weekly FVG [59.25-63.90] | LONG: entry $63.00 stop $58.66 target $69.85 R:R 1.6
+6A=F,Australian Dollar,Currency,bottom,LONG,1.0,0.7017,2026-09-25,0.6883,2026-06-24,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,0.6865,0.7055,Weekly OB+FVG [0.69-0.71]
+6J=F,Japanese Yen,Currency,bottom,LONG,1.0,0.0064,2026-09-25,0.0063,2026-09-24,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0062,0.0063,Weekly OB+FVG [0.01-0.01]
+ES=F,E-mini S&P 500,Index,top,SHORT,1.0,7805.75,2026-09-25,7847.25,2026-09-21,miss,2/5,"R2,R3,R4",,True,0.408,False,,,,,3-push top 7628.75→7838.50→7847.25 pullback 82%/64%
+M2K=F,Micro E-mini Russell 2000,Index,top,SHORT,1.0,2859.3,2026-09-25,3076.3,2026-08-14,miss,2/5,"R2,R3,R4",,True,0.139,False,,,,,3-push top 2948.70→3050.60→3076.30 pullback 62%/62%
+MES=F,Micro E-mini S&P 500,Index,top,SHORT,1.0,7806.25,2026-09-25,7847.25,2026-09-21,miss,2/5,"R2,R3,R4",,True,0.398,False,,,,,3-push top 7628.75→7838.50→7847.25 pullback 82%/64%
+RTY=F,E-mini Russell 2000,Index,top,SHORT,1.0,2859.8999,2026-09-25,3076.3,2026-08-14,miss,2/5,"R2,R3,R4",,True,0.137,False,,,,,3-push top 2948.60→3050.60→3076.30 pullback 62%/62%
+HE=F,Lean Hogs,Livestock,top,SHORT,1.0,68.975,2026-09-25,84.5,2026-09-08,miss,2/5,"R1,R3,R4",,False,,True,OB+FVG,W,81.975,84.9,Weekly OB+FVG [81.97-84.90]
