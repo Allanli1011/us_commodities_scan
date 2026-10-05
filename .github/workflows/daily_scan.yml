@@ -55,7 +55,7 @@ jobs:
           echo "── signals/ contents ──"
           ls -la signals/ signals/charts/ 2>/dev/null || true
 
-      - name: Upload artifacts (90-day retention)
+      - name: Upload artifacts (3-day retention)
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -64,7 +64,7 @@ jobs:
             output/
             signals/
           if-no-files-found: warn
-          retention-days: 90
+          retention-days: 3
 
       - name: Commit signals back to repo
         run: |
