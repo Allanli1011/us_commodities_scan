@@ -1,0 +1,9 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+SI=F,Silver,Metals,bottom,LONG,1.5,60.63,2026-10-07,59.977,2026-10-02,miss,2/5,"R1,R3,R4",,True,0.793,True,FVG,W,59.25,63.905,3-push bottom 63.87→63.03→59.98 bounce 71%/77% | Weekly FVG [59.25-63.90] | LONG: entry $59.98 stop $58.66 target $69.85 R:R 7.5
+SIL=F,Micro Silver,Metals,bottom,LONG,1.5,60.63,2026-10-07,59.745,2026-10-02,miss,2/5,"R1,R3,R4",,True,0.762,True,FVG,W,59.7,64.675,3-push bottom 64.00→63.24→59.74 bounce 73%/70% | Weekly FVG [59.70-64.68] | LONG: entry $59.74 stop $59.10 target $69.47 R:R 15.1
+6J=F,Japanese Yen,Currency,bottom,LONG,1.0,0.0064,2026-10-07,0.0063,2026-09-24,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0062,0.0063,Weekly OB+FVG [0.01-0.01]
+RB=F,RBOB Gasoline,Energy,bottom,LONG,1.0,3.0977,2026-10-07,3.0798,2026-10-07,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,2.8871,3.3655,Weekly OB+FVG [2.89-3.37]
+ES=F,E-mini S&P 500,Index,top,SHORT,1.0,7854.75,2026-10-07,7897.5,2026-10-06,miss,2/5,"R2,R3,R4",,True,0.408,False,,,,,3-push top 7628.75→7838.50→7897.50 pullback 82%/64%
+MES=F,Micro E-mini S&P 500,Index,top,SHORT,1.0,7854.75,2026-10-07,7897.5,2026-10-06,miss,2/5,"R2,R3,R4",,True,0.398,False,,,,,3-push top 7628.75→7838.50→7897.50 pullback 82%/64%
+ALI=F,Aluminum,Metals,bottom,LONG,1.0,3263.0,2026-10-07,3191.75,2026-10-02,miss,3/5,"R3,R4",,False,,True,OB+FVG,W,3102.0,3291.5,Weekly OB+FVG [3102.00-3291.50]
+CT=F,Cotton #2,Softs,bottom,LONG,1.0,80.13,2026-10-07,74.03,2026-10-01,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,70.66,76.35,Weekly OB+FVG [70.66-76.35]
