@@ -1,0 +1,12 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+ZL=F,Soybean Oil,Grains,bottom,LONG,1.5,66.77,2026-10-20,66.11,2026-10-19,miss,1/5,"R1,R2,R3,R4",,True,0.588,True,OB,W,65.51,69.69,3-push bottom 68.42→66.39→66.11 bounce 72%/65% | Weekly OB [65.51-69.69] | LONG: entry $66.11 stop $64.85 target $72.37 R:R 5.0
+SI=F,Silver,Metals,bottom,LONG,1.5,57.92,2026-10-20,55.5,2026-10-14,miss,3/5,"R3,R4",,True,0.793,True,FVG,W,51.75,56.14,3-push bottom 63.87→63.03→55.50 bounce 71%/77% | Weekly FVG [51.75-56.14] | LONG: entry $55.50 stop $51.23 target $69.85 R:R 3.4
+SIL=F,Micro Silver,Metals,bottom,LONG,1.5,57.925,2026-10-20,55.55,2026-10-14,miss,3/5,"R3,R4",,True,0.762,True,FVG,W,50.79,56.34,3-push bottom 64.00→63.24→55.55 bounce 73%/70% | Weekly FVG [50.79-56.34] | LONG: entry $55.55 stop $50.28 target $69.47 R:R 2.6
+6J=F,Japanese Yen,Currency,bottom,LONG,1.0,0.0063,2026-10-20,0.0063,2026-10-12,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0062,0.0063,Weekly OB+FVG [0.01-0.01]
+6M=F,Mexican Peso,Currency,bottom,LONG,1.0,0.0541,2026-10-20,0.054,2026-10-14,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,0.0538,0.0545,Weekly OB+FVG [0.05-0.05]
+RB=F,RBOB Gasoline,Energy,bottom,LONG,1.0,3.0707,2026-10-20,3.0577,2026-10-20,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,2.8871,3.3655,Weekly OB+FVG [2.89-3.37]
+ZC=F,Corn,Grains,bottom,LONG,1.0,461.25,2026-10-20,461.25,2026-10-20,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,438.0,462.25,Weekly OB+FVG [438.00-462.25]
+ES=F,E-mini S&P 500,Index,top,SHORT,1.0,7776.0,2026-10-20,7897.5,2026-10-06,miss,2/5,"R2,R3,R4",,True,0.408,False,,,,,3-push top 7628.75→7838.50→7897.50 pullback 82%/64%
+MES=F,Micro E-mini S&P 500,Index,top,SHORT,1.0,7775.75,2026-10-20,7897.5,2026-10-06,miss,2/5,"R2,R3,R4",,True,0.398,False,,,,,3-push top 7628.75→7838.50→7897.50 pullback 82%/64%
+MGC=F,Micro Gold,Metals,bottom,LONG,1.0,4135.8999,2026-10-20,4084.8,2026-10-14,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,3993.3999,4119.5,Weekly OB+FVG [3993.40-4119.50]
+CT=F,Cotton #2,Softs,bottom,LONG,1.0,80.55,2026-10-20,74.03,2026-10-01,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,70.66,76.35,Weekly OB+FVG [70.66-76.35]
