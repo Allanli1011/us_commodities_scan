@@ -1,0 +1,8 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+ZL=F,Soybean Oil,Grains,bottom,LONG,1.5,66.86,2026-10-22,65.55,2026-10-21,miss,1/5,"R1,R2,R3,R4",,True,0.588,True,OB,W,65.51,69.69,3-push bottom 68.42→66.39→65.55 bounce 72%/65% | Weekly OB [65.51-69.69] | LONG: entry $65.55 stop $64.85 target $72.37 R:R 9.8
+6J=F,Japanese Yen,Currency,bottom,LONG,1.0,0.0064,2026-10-22,0.0063,2026-10-12,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0062,0.0063,Weekly OB+FVG [0.01-0.01]
+RB=F,RBOB Gasoline,Energy,bottom,LONG,1.0,3.0793,2026-10-22,3.0763,2026-10-22,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,2.8871,3.3655,Weekly OB+FVG [2.89-3.37]
+ES=F,E-mini S&P 500,Index,top,SHORT,1.0,7709.0,2026-10-22,7897.5,2026-10-06,miss,2/5,"R2,R3,R4",,True,0.408,False,,,,,3-push top 7628.75→7838.50→7897.50 pullback 82%/64%
+MES=F,Micro E-mini S&P 500,Index,top,SHORT,1.0,7709.0,2026-10-22,7897.5,2026-10-06,miss,2/5,"R2,R3,R4",,True,0.398,False,,,,,3-push top 7628.75→7838.50→7897.50 pullback 82%/64%
+MGC=F,Micro Gold,Metals,bottom,LONG,1.0,4045.6001,2026-10-22,4031.3,2026-10-22,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,3993.3999,4119.5,Weekly OB+FVG [3993.40-4119.50]
+CT=F,Cotton #2,Softs,bottom,LONG,1.0,81.03,2026-10-22,74.03,2026-10-01,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,70.66,76.35,Weekly OB+FVG [70.66-76.35]
