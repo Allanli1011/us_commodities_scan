@@ -1,0 +1,10 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+ZL=F,Soybean Oil,Grains,bottom,LONG,1.5,63.73,2026-11-13,61.91,2026-11-09,miss,1/5,"R1,R2,R3,R4",,True,0.588,True,FVG,W,59.81,62.0,3-push bottom 68.42→66.39→61.91 bounce 72%/65% | Weekly FVG [59.81-62.00] | LONG: entry $61.91 stop $59.21 target $72.37 R:R 3.9
+HG=F,Copper,Metals,bottom,LONG,1.5,6.0635,2026-11-13,6.048,2026-11-13,miss,2/5,"R2,R3,R4",,True,0.824,True,FVG,W,6.022,6.2315,3-push bottom 6.46→6.36→6.05 bounce 72%/77% | Weekly FVG [6.02-6.23] | LONG: entry $6.05 stop $5.96 target $6.83 R:R 9.1
+BTC=F,Bitcoin Futures,Crypto,top,SHORT,1.0,67455.0,2026-11-13,81460.0,2026-11-04,miss,1/5,"R2,R3,R4,R5",,False,,True,OB+FVG,W,80845.0,85080.0,Weekly OB+FVG [80845.00-85080.00]
+ETH=F,Ether Futures,Crypto,top,SHORT,1.0,1901.5,2026-11-13,2456.5,2026-11-04,miss,1/5,"R2,R3,R4,R5",,False,,True,OB+FVG,W,2357.5,2528.5,Weekly OB+FVG [2357.50-2528.50]
+6J=F,Japanese Yen,Currency,bottom,LONG,1.0,0.0063,2026-11-13,0.0063,2026-11-11,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0062,0.0063,Weekly OB+FVG [0.01-0.01]
+ALI=F,Aluminum,Metals,bottom,LONG,1.0,3110.25,2026-11-13,3102.5,2026-11-13,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,3102.0,3291.5,Weekly OB+FVG [3102.00-3291.50]
+SI=F,Silver,Metals,bottom,LONG,1.0,48.65,2026-11-13,48.405,2026-11-13,miss,3/5,"R3,R4",,False,,True,OB+FVG,W,46.735,49.49,Weekly OB+FVG [46.74-49.49]
+SIL=F,Micro Silver,Metals,bottom,LONG,1.0,48.65,2026-11-13,48.41,2026-11-13,miss,3/5,"R3,R4",,False,,True,OB+FVG,W,46.85,49.395,Weekly OB+FVG [46.85-49.40]
+KC=F,Coffee,Softs,bottom,LONG,1.0,274.0,2026-11-13,266.9,2026-11-11,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,243.3,269.4,Weekly OB+FVG [243.30-269.40]
