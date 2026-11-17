@@ -1,0 +1,11 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+HG=F,Copper,Metals,bottom,LONG,2.0,5.983,2026-11-16,5.9575,2026-11-16,miss,2/5,"R2,R3,R4",,True,0.824,True,OB+FVG,W,5.8625,6.022,3-push bottom 6.46→6.36→5.96 bounce 72%/77% | Weekly OB+FVG [5.86-6.02] | LONG: entry $5.96 stop $5.80 target $6.83 R:R 5.7
+ZL=F,Soybean Oil,Grains,bottom,LONG,1.5,61.95,2026-11-16,61.81,2026-11-16,miss,1/5,"R1,R2,R3,R4",,True,0.588,True,FVG,W,59.81,62.0,3-push bottom 68.42→66.39→61.81 bounce 72%/65% | Weekly FVG [59.81-62.00] | LONG: entry $61.81 stop $59.21 target $72.37 R:R 4.1
+BTC=F,Bitcoin Futures,Crypto,top,SHORT,1.0,65085.0,2026-11-16,81460.0,2026-11-04,miss,1/5,"R2,R3,R4,R5",,False,,True,OB+FVG,W,80845.0,85080.0,Weekly OB+FVG [80845.00-85080.00]
+ETH=F,Ether Futures,Crypto,top,SHORT,1.0,1831.0,2026-11-16,2456.5,2026-11-04,miss,1/5,"R2,R3,R4,R5",,False,,True,OB+FVG,W,2357.5,2528.5,Weekly OB+FVG [2357.50-2528.50]
+6A=F,Australian Dollar,Currency,bottom,LONG,1.0,0.6738,2026-11-16,0.6723,2026-11-16,miss,2/5,"R1,R2,R4",,False,,True,OB+FVG,W,0.6665,0.6728,Weekly OB+FVG [0.67-0.67]
+6J=F,Japanese Yen,Currency,bottom,LONG,1.0,0.0063,2026-11-16,0.0063,2026-11-11,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0062,0.0063,Weekly OB+FVG [0.01-0.01]
+ALI=F,Aluminum,Metals,top,SHORT,1.0,3055.5,2026-11-16,3332.25,2026-10-29,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,3222.0,3332.25,Weekly OB+FVG [3222.00-3332.25]
+PL=F,Platinum,Metals,bottom,LONG,1.0,1471.4,2026-11-16,1441.8,2026-11-16,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,1371.2,1448.6,Weekly OB+FVG [1371.20-1448.60]
+SIL=F,Micro Silver,Metals,bottom,LONG,1.0,47.445,2026-11-16,46.74,2026-11-16,miss,3/5,"R2,R3",,False,,True,OB+FVG,W,46.715,48.38,Weekly OB+FVG [46.72-48.38]
+KC=F,Coffee,Softs,bottom,LONG,1.0,274.4,2026-11-16,266.9,2026-11-11,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,243.3,269.4,Weekly OB+FVG [243.30-269.40]
