@@ -1,0 +1,10 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+ZL=F,Soybean Oil,Grains,bottom,LONG,1.5,60.17,2026-11-18,59.83,2026-11-18,miss,1/5,"R1,R2,R3,R4",,True,0.588,True,FVG,W,59.81,62.0,3-push bottom 68.42→66.39→59.83 bounce 72%/65% | Weekly FVG [59.81-62.00] | LONG: entry $59.83 stop $59.21 target $72.37 R:R 20.3
+BTC=F,Bitcoin Futures,Crypto,top,SHORT,1.0,62970.0,2026-11-18,81460.0,2026-11-04,miss,1/5,"R2,R3,R4,R5",,False,,True,OB+FVG,W,80845.0,85080.0,Weekly OB+FVG [80845.00-85080.00]
+ETH=F,Ether Futures,Crypto,top,SHORT,1.0,1779.5,2026-11-18,2456.5,2026-11-04,miss,1/5,"R2,R3,R4,R5",,False,,True,OB+FVG,W,2357.5,2528.5,Weekly OB+FVG [2357.50-2528.50]
+6J=F,Japanese Yen,Currency,bottom,LONG,1.0,0.0063,2026-11-18,0.0063,2026-11-11,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0062,0.0063,Weekly OB+FVG [0.01-0.01]
+NG=F,Natural Gas,Energy,top,SHORT,1.0,3.382,2026-11-18,3.398,2026-11-18,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,3.38,5.65,Weekly OB+FVG [3.38-5.65]
+M2K=F,Micro E-mini Russell 2000,Index,bottom,LONG,1.0,2727.7,2026-11-18,2699.5,2026-11-17,loose,4/5,R2,0.178,False,,True,FVG,W,2674.0,2746.0,"MACD LOOSE bottom div (4/5, miss R2, strength 0.18) | Weekly FVG [2674.00-2746.00] | LONG: entry $2699.50 stop $2647.26 (no clear target, PDA-only)"
+RTY=F,E-mini Russell 2000,Index,bottom,LONG,1.0,2727.3,2026-11-18,2699.5,2026-11-17,loose,4/5,R2,0.178,False,,True,FVG,W,2674.5,2745.8999,"MACD LOOSE bottom div (4/5, miss R2, strength 0.18) | Weekly FVG [2674.50-2745.90] | LONG: entry $2699.50 stop $2647.76 (no clear target, PDA-only)"
+ALI=F,Aluminum,Metals,top,SHORT,1.0,2868.75,2026-11-18,3332.25,2026-10-29,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,3222.0,3332.25,Weekly OB+FVG [3222.00-3332.25]
+HG=F,Copper,Metals,bottom,LONG,1.0,5.646,2026-11-18,5.617,2026-11-18,miss,2/5,"R2,R3,R4",,True,0.824,False,,,,,3-push bottom 6.46→6.36→5.62 bounce 72%/77%
