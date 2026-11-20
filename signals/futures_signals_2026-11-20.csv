@@ -1,0 +1,9 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+BTC=F,Bitcoin Futures,Crypto,top,SHORT,1.0,61980.0,2026-11-19,81460.0,2026-11-04,miss,1/5,"R2,R3,R4,R5",,False,,True,OB+FVG,W,80845.0,85080.0,Weekly OB+FVG [80845.00-85080.00]
+ETH=F,Ether Futures,Crypto,top,SHORT,1.0,1742.5,2026-11-19,2456.5,2026-11-04,miss,1/5,"R2,R3,R4,R5",,False,,True,OB+FVG,W,2357.5,2528.5,Weekly OB+FVG [2357.50-2528.50]
+6J=F,Japanese Yen,Currency,bottom,LONG,1.0,0.0063,2026-11-19,0.0063,2026-11-11,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0062,0.0063,Weekly OB+FVG [0.01-0.01]
+NG=F,Natural Gas,Energy,top,SHORT,1.0,3.251,2026-11-19,3.418,2026-11-18,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,3.38,5.65,Weekly OB+FVG [3.38-5.65]
+ZL=F,Soybean Oil,Grains,bottom,LONG,1.0,59.95,2026-11-19,59.8,2026-11-18,miss,1/5,"R1,R2,R3,R4",,True,0.588,False,,,,,3-push bottom 68.42→66.39→59.80 bounce 72%/65%
+ALI=F,Aluminum,Metals,top,SHORT,1.0,2794.75,2026-11-19,3332.25,2026-10-29,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,3222.0,3332.25,Weekly OB+FVG [3222.00-3332.25]
+HG=F,Copper,Metals,bottom,LONG,1.0,5.5015,2026-11-19,5.476,2026-11-19,miss,2/5,"R2,R3,R4",,True,0.824,False,,,,,3-push bottom 6.46→6.36→5.48 bounce 72%/77%
+CT=F,Cotton #2,Softs,bottom,LONG,1.0,79.96,2026-11-19,74.89,2026-11-18,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,70.66,76.35,Weekly OB+FVG [70.66-76.35]
