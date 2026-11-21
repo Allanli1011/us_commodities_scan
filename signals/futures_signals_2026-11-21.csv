@@ -1,0 +1,11 @@
+ticker,name,category,direction,signal,score,last_close,last_date,target_price,target_date,macd_kind,macd_passed,macd_failed_rules,macd_strength,three_push_hit,three_push_quality,pda_hit,pda_quality,pda_timeframe,pda_zone_low,pda_zone_high,notes
+BTC=F,Bitcoin Futures,Crypto,top,SHORT,1.0,58390.0,2026-11-20,81460.0,2026-11-04,miss,1/5,"R2,R3,R4,R5",,False,,True,OB+FVG,W,80845.0,85080.0,Weekly OB+FVG [80845.00-85080.00]
+ETH=F,Ether Futures,Crypto,top,SHORT,1.0,1605.0,2026-11-20,2456.5,2026-11-04,miss,1/5,"R2,R3,R4,R5",,False,,True,OB+FVG,W,2357.5,2528.5,Weekly OB+FVG [2357.50-2528.50]
+6J=F,Japanese Yen,Currency,bottom,LONG,1.0,0.0063,2026-11-20,0.0063,2026-11-11,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,0.0062,0.0063,Weekly OB+FVG [0.01-0.01]
+6M=F,Mexican Peso,Currency,bottom,LONG,1.0,0.0521,2026-11-20,0.052,2026-11-20,loose,4/5,R2,0.179,False,,True,FVG,W,0.052,0.0523,"MACD LOOSE bottom div (4/5, miss R2, strength 0.18) | Weekly FVG [0.05-0.05] | LONG: entry $0.05 stop $0.05 (no clear target, PDA-only)"
+ZL=F,Soybean Oil,Grains,bottom,LONG,1.0,60.0,2026-11-20,59.8,2026-11-18,miss,1/5,"R1,R2,R3,R4",,True,0.588,False,,,,,3-push bottom 68.42→66.39→59.80 bounce 72%/65%
+ZM=F,Soybean Meal,Grains,top,SHORT,1.0,340.1,2026-11-20,341.8,2026-11-20,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,341.5,369.9,Weekly OB+FVG [341.50-369.90]
+ALI=F,Aluminum,Metals,top,SHORT,1.0,2796.25,2026-11-20,3332.25,2026-10-29,miss,1/5,"R1,R2,R3,R4",,False,,True,OB+FVG,W,3222.0,3332.25,Weekly OB+FVG [3222.00-3332.25]
+HG=F,Copper,Metals,bottom,LONG,1.0,5.465,2026-11-20,5.439,2026-11-20,miss,2/5,"R2,R3,R4",,True,0.824,False,,,,,3-push bottom 6.46→6.36→5.44 bounce 72%/77%
+CT=F,Cotton #2,Softs,bottom,LONG,1.0,79.3,2026-11-20,74.89,2026-11-18,miss,2/5,"R1,R2,R3",,False,,True,OB+FVG,W,70.66,76.35,Weekly OB+FVG [70.66-76.35]
+KC=F,Coffee,Softs,bottom,LONG,1.0,268.7,2026-11-20,268.0,2026-11-20,miss,2/5,"R2,R3,R4",,False,,True,OB+FVG,W,243.3,269.4,Weekly OB+FVG [243.30-269.40]
